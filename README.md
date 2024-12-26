@@ -15,6 +15,7 @@ You can install pynput using pip:
 bash
 
 
+
 pip install pynput
 How It Works
 The script uses the pynput.keyboard.Listener class to monitor keyboard events.
@@ -25,10 +26,12 @@ Clone this repository:
 bash
 
 
+
 git clone https://github.com/your-username/keylogger-project.git
 cd keylogger-project
 Install the required dependencies:
 bash
+
 
 
 pip install pynput
@@ -43,6 +46,7 @@ Here’s a breakdown of the key components of the script:
 on_press(key): This function is called whenever a key is pressed. It writes the key to the log file.
 Listener: The pynput.keyboard.Listener class is used to listen for keyboard events. The on_press function is passed as a callback to handle key press events.
 Log File: The keylog.txt file is used to store the logged keys.
+
 Example Output
 The keylog.txt file will look something like this:
 javascript
